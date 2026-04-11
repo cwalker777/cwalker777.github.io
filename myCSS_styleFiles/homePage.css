@@ -31,8 +31,8 @@ html,
 }
 
 .custom-heading {
-  background-color: cadetblue; 
-  color: white;
+  background-color: cadetblue !important; 
+  color: white !important;
   font-weight: bold;
   border-bottom: none;
 }

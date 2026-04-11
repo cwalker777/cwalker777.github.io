@@ -26,8 +26,8 @@ html,
 }
 
 .panel.panel-default .panel-heading {
-  background-color: cadetblue;
-  color: white;
+  background-color: cadetblue !important;
+  color: white !important;
 }
 
 .custom-heading {

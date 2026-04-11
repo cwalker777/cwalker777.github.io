@@ -1,38 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head> 
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css">
-    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
-    <title> GEOG 485L/585L -- My First Map  </title>
+    <title>Personal Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="homePage.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="jQuery.js"></script>
+    <script src="bootstrap.js"></script>
+
 </head>
 <body>
-    <p>
-        My first map will appear here:
-    </p>
-    <div id="mapId" style="height:400px; width:600px"></div>
-    <script>
-        
-        // Bandelier Hall East lat/long: 35.0843° N, 106.6241° W
-        //create a map variable "mymap" that points to the map placed in the mapId <div>
-        //zoom the view on Bandelier Hall East building at a 17 zoom level
-        var mymap = L.map('mapId').setView([35.0843, -106.6241], 17);
 
-        // create a variable named "osm" that is used to hold OpenStreetMap tile layer
-        var osm = new L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
+<div class="container-fluid">
+<h3>Hi, my name is Claire Walker</h3>
+<img src="me.jpg" alt="Me pictured in front of a waterfall in Krka National Park, Croatia">
+<h3> About Me </h3>
+</div>
 
-        // add the OpenStreetMap tile layer (i.e., the variable osm you defined above) to the map
-        osm.addTo(mymap);
 
-        // add a marker on the tile layer 
-        var marker = L.marker([35.0843, -106.6241]).addTo(mymap);
-
-        // add a popup
-        //Popups are usually used when you want to attach some information to a particular object on a map
-        marker.bindPopup("<b>Hello world!</b> <br><i>Bandelier Hall East</i> <br>University of New Mexico").openPopup();
-        // <b> tag used to bold text
-        // <br> tag for new line
-        // <i> tag for italic text
-
-    </script>
 </body>
 </html>

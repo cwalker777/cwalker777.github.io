@@ -24,3 +24,10 @@ html,
   border: 1px solid #ccc;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
+
+.custom-heading {
+  background-color: cadetblue; 
+  color: white;
+  font-weight: bold;
+  border-bottom: none;
+}

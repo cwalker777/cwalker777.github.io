@@ -14,7 +14,7 @@
 </head>
 
 <body>
- 
+
     <!-- add nav bar -->
     <nav class="navbar navbar-default">
         <div class="container">
@@ -28,73 +28,78 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Professional Materials</a></li>
-                    <li><a href="#">My Web App</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#prof">Professional Materials</a></li>
+                    <li><a href="#webapp">My Web App</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- page header  -->
-    <div class="container-fluid bg-1">
-        <div class="page-header">
-            <h1 class="text-center"> Hi, I'm Claire Walker!</h1>
+    <section id="about">
+        <!-- page header  -->
+        <div class="container-fluid bg-1">
+            <div class="page-header">
+                <h1 class="text-center"> Hi, I'm Claire Walker!</h1>
+            </div>
+            <div class="row align-items-center text-center"></div>
+
+            <!-- Image (left) -->
+            <div class="col-md-6">
+                <img src="images/me.jpeg" class="img-circle"
+                    alt="Me pictured in front of a waterfall in Krka National Park, Croatia" style="width:50%">
+            </div>
+
+            <!-- about me text (right) -->
+            <div class="col-md-6">
+                <h3> About Me </h3>
+                <p> I am a student at the University of New Mexico pursuing my Bachelor's of Sciemce in Geography with
+                    minors in Sustainability Studies and Anthropology. I am interested in food systems, sustainable
+                    agriculture, and sustainable waste management, and integrating GIS into all of these sectors. I am
+                    currently an intern with the City of Albuquerque Sustainability Office helping with their community
+                    composting initiatives. </p>
+            </div>
+
         </div>
-        <div class="row align-items-center text-center"></div>
-
-        <!-- Image (left) -->
-        <div class="col-md-6">
-            <img src="images/me.jpeg" class="img-circle"
-                alt="Me pictured in front of a waterfall in Krka National Park, Croatia" style="width:50%">
         </div>
+    </section>
 
-        <!-- about me text (right) -->
-        <div class="col-md-6">
-            <h3> About Me </h3>
-            <p> I am a student at the University of New Mexico pursuing my Bachelor's of Sciemce in Geography with
-                minors in Sustainability Studies and Anthropology. I am interested in food systems, sustainable
-                agriculture, and sustainable waste management, and integrating GIS into all of these sectors. I am
-                currently an intern with the City of Albuquerque Sustainability Office helping with their community
-                composting initiatives. </p>
-        </div>
-
-    </div>
-    </div>
-
-    <!-- professional materials section w ith 3 panels and links -->
-    <div class="container-fluid bg-2 text-center">
-        <h3>Professional Materials</h3>
-        <p>Lorem ipsum..</p>
-        <div class="row">
-            <div class="col-sm-4">
-                <div class="panel panel-default round-panel">
-                    <div class="panel-heading custom-heading">My Resume</div>
-                    <div class="panel-body">Panel Content</div>
+    <section id="prof">
+        <!-- professional materials section w ith 3 panels and links -->
+        <div class="container-fluid bg-2 text-center">
+            <h3>Professional Materials</h3>
+            <p>Lorem ipsum..</p>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="panel panel-default round-panel">
+                        <div class="panel-heading custom-heading">My Resume</div>
+                        <div class="panel-body">Panel Content</div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel panel-default round-panel">
+                        <div class="panel-heading custom-heading">My CV</div>
+                        <div class="panel-body">Panel Content</div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="panel panel-default round-panel">
+                        <div class="panel-heading custom-heading">My LinkedIn</div>
+                        <div class="panel-body">Panel Content</div>
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-4">
-                <div class="panel panel-default round-panel">
-                    <div class="panel-heading custom-heading">My CV</div>
-                    <div class="panel-body">Panel Content</div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="panel panel-default round-panel">
-                    <div class="panel-heading custom-heading">My LinkedIn</div>
-                    <div class="panel-body">Panel Content</div>
-                </div>
-            </div>
         </div>
-    </div>
+    </section>
 
-    <!-- web app section with link  -->
-    <div class="container-fluid bg-3 text-center">
-        <h3>My Web App</h3>
-        <p>Lorem ipsum..</p>
-    </div>
+    <section id="webapp">
+        <!-- web app section with link  -->
+        <div class="container-fluid bg-3 text-center">
+            <h3>My Web App</h3>
+            <p>Lorem ipsum..</p>
+        </div>
 
-
+    </section>
 
 </body>
 

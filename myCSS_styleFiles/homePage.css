@@ -29,3 +29,11 @@ html,
   background-color: cadetblue;
   color: white;
 }
+
+.custom-heading {
+  background-color: cadetblue; 
+  color: white;
+  font-weight: bold;
+  border-bottom: none;
+}
+

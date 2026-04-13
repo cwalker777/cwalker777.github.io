@@ -50,3 +50,8 @@ html,
 .navbar-nav li a:hover {
   color: cadetblue !important;
 }
+
+.bg-4 {
+    background-color: #2f2f2f;
+    color:#ffffff;
+}

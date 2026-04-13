@@ -69,3 +69,13 @@ p {
     background-color: #2f2f2f;
     color: #ffffff;
 }
+
+.custom-btn {
+  background-color:#555555;
+  color: white;
+  border: none;
+}
+
+.custom-btn:hover {
+  background-color: #424242;
+}
